@@ -3,8 +3,8 @@
 
 
 ## EN675 Model Zoo
-***
 The EN675 Series SoC Model Zoo privides the trained models for high-performance AI applications.
+***
 #### Object Detection
 ***
 #### Classification
