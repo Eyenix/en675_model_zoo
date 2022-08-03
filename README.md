@@ -1,0 +1,1 @@
+Eyenix EN675 Series SoC AI Network Model Zoo
