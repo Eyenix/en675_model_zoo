@@ -9,14 +9,36 @@ The EN675 Series SoC Model Zoo privides the trained models for AI Object Detecti
 &#160;
 ### :star: Download
 #### :arrow_forward: Object Detection
+**classes** : Person, Bicycle, Motorbike, Car, Bus, Truck  
+<figure>
+    <img src="./img/6classes_image.PNG" title="6class">    
+</figure>
+
 |Model|ONNX|Compile Results|Total DRAM Size|Inference Speed (Standard)|Inference Speed (Max)|
 |:-----:|:---:|:---:|:---:|:---:|:---:|
 |320_320_eyenix_model_v1|-|-|-|-|-|
 |416_416_eyenix_model_v1|-|-|-|-|-|
 |512_512_eyenix_model_v1|-|-|-|-|-|
 |640_640_eyenix_model_v1|-|-|-|-|-|
+
 &#160;
+
+**class** : Face  
+<figure>
+    <img src="./img/face_image.PNG" title="face">    
+</figure>
+
+|Model|ONNX|Compile Results|Total DRAM Size|Inference Speed (Standard)|Inference Speed (Max)|
+|:-----:|:---:|:---:|:---:|:---:|:---:|
+|320_320_eyenix_model_v1|-|-|-|-|-|
+|416_416_eyenix_model_v1|-|-|-|-|-|
+|512_512_eyenix_model_v1|-|-|-|-|-|
+|640_640_eyenix_model_v1|-|-|-|-|-|
+
+&#160;
+
 #### :arrow_forward: Classification (TBD)
+**class** : -
 |Model|ONNX|Compile Results|Total DRAM Size|Inference Speed (Standard)|Inference Speed (Max)|
 |:-----:|:---:|:---:|:---:|:---:|:---:|
 |320_320_eyenix_model|-|-|-|-|-|
@@ -24,7 +46,9 @@ The EN675 Series SoC Model Zoo privides the trained models for AI Object Detecti
 |512_512_eyenix_model|-|-|-|-|-|
 |640_640_eyenix_model|-|-|-|-|-|
 ***
+
 &#160;
+
 ### :trophy: Performance
 #### :arrow_forward: Object Detection
 :+1: Train Dataset : PASCAL VOC 2007 (train, val), PASCAL VOC 2012 (train, val)  
@@ -35,7 +59,9 @@ The EN675 Series SoC Model Zoo privides the trained models for AI Object Detecti
 |416_416_eyenix_model_v1|-|
 |512_512_eyenix_model_v1|-|
 |640_640_eyenix_model_v1|-|
+
 &#160;
+
 #### :arrow_forward: Classification (TBD)
 :+1: Train Dataset : ImageNet  
 :+1: Test Dataset : ImageNet
@@ -46,7 +72,9 @@ The EN675 Series SoC Model Zoo privides the trained models for AI Object Detecti
 |512_512_eyenix_model|-|
 |640_640_eyenix_model|-|
 ***
+
 &#160;
+
 ### :fire: How to apply Model 
 
 &#160;
