@@ -55,9 +55,9 @@ The EN675 Series SoC Model Zoo privides the trained models for AI Object Detecti
 :+1: Test Dataset : PASCAL VOC 2007 (test)
 |Model|mAP|
 |:-----:|:---:|
-|320_320_eyenix_model_v1|0.745|
+|320_320_eyenix_model_v1|0.752|
 |416_416_eyenix_model_v1|-|
-|512_512_eyenix_model_v1|-|
+|512_512_eyenix_model_v1|0.782|
 |640_640_eyenix_model_v1|-|
 
 &#160;
