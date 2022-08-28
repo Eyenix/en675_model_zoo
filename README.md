@@ -17,7 +17,6 @@ The EN675 Series SoC Model Zoo privides the trained models for AI Object Detecti
 |Model|ONNX|Compile Results|Total DRAM Size|Inference Speed (Standard)|Inference Speed (Max)|
 |:-----:|:---:|:---:|:---:|:---:|:---:|
 |320_320_eyenix_model_v1|-|-|-|-|-|
-|416_416_eyenix_model_v1|-|-|-|-|-|
 |512_512_eyenix_model_v1|-|-|-|-|-|
 |640_640_eyenix_model_v1|-|-|-|-|-|
 
@@ -31,7 +30,6 @@ The EN675 Series SoC Model Zoo privides the trained models for AI Object Detecti
 |Model|ONNX|Compile Results|Total DRAM Size|Inference Speed (Standard)|Inference Speed (Max)|
 |:-----:|:---:|:---:|:---:|:---:|:---:|
 |320_320_eyenix_model_v1|-|-|-|-|-|
-|416_416_eyenix_model_v1|-|-|-|-|-|
 |512_512_eyenix_model_v1|-|-|-|-|-|
 |640_640_eyenix_model_v1|-|-|-|-|-|
 
@@ -42,7 +40,6 @@ The EN675 Series SoC Model Zoo privides the trained models for AI Object Detecti
 |Model|ONNX|Compile Results|Total DRAM Size|Inference Speed (Standard)|Inference Speed (Max)|
 |:-----:|:---:|:---:|:---:|:---:|:---:|
 |320_320_eyenix_model|-|-|-|-|-|
-|416_416_eyenix_model|-|-|-|-|-|
 |512_512_eyenix_model|-|-|-|-|-|
 |640_640_eyenix_model|-|-|-|-|-|
 ***
@@ -56,7 +53,6 @@ The EN675 Series SoC Model Zoo privides the trained models for AI Object Detecti
 |Model|mAP|
 |:-----:|:---:|
 |320_320_eyenix_model_v1|0.752|
-|416_416_eyenix_model_v1|-|
 |512_512_eyenix_model_v1|0.782|
 |640_640_eyenix_model_v1|-|
 
@@ -67,7 +63,6 @@ The EN675 Series SoC Model Zoo privides the trained models for AI Object Detecti
 |Model|mAP|
 |:-----:|:---:|
 |320_320_eyenix_model_v1|-|
-|416_416_eyenix_model_v1|-|
 |512_512_eyenix_model_v1|-|
 |640_640_eyenix_model_v1|-|
 
@@ -79,7 +74,6 @@ The EN675 Series SoC Model Zoo privides the trained models for AI Object Detecti
 |Model|TOP-1 Accuracy|
 |:-----:|:---:|
 |320_320_eyenix_model|-|
-|416_416_eyenix_model|-|
 |512_512_eyenix_model|-|
 |640_640_eyenix_model|-|
 ***
