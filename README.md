@@ -14,7 +14,7 @@ The EN675 Series SoC Model Zoo privides the trained models for AI Object Detecti
     <img src="./img/6classes_image.PNG" title="6class">    
 </figure>
 
-|Model|ONNX|Compile Results|Total DRAM Size|Inference Speed (Standard)|Inference Speed (Max)|
+|Model|ONNX|Compile Results|Total DRAM Size|Inference Speed (Standard)|Inference Speed (Boost)|
 |:-----:|:---:|:---:|:---:|:---:|:---:|
 |320_320_eyenix_model_v1|-|-|-|-|-|
 |512_512_eyenix_model_v1|-|-|-|-|-|
@@ -22,12 +22,13 @@ The EN675 Series SoC Model Zoo privides the trained models for AI Object Detecti
 
 &#160;
 
+### To be updated later
 **class** : Face  
 <figure>
     <img src="./img/face_image.PNG" title="face">    
 </figure>
 
-|Model|ONNX|Compile Results|Total DRAM Size|Inference Speed (Standard)|Inference Speed (Max)|
+|Model|ONNX|Compile Results|Total DRAM Size|Inference Speed (Standard)|Inference Speed (Boost)|
 |:-----:|:---:|:---:|:---:|:---:|:---:|
 |320_320_eyenix_model_v1|-|-|-|-|-|
 |512_512_eyenix_model_v1|-|-|-|-|-|
@@ -37,7 +38,7 @@ The EN675 Series SoC Model Zoo privides the trained models for AI Object Detecti
 
 #### :arrow_forward: Classification (TBD)
 **class** : -
-|Model|ONNX|Compile Results|Total DRAM Size|Inference Speed (Standard)|Inference Speed (Max)|
+|Model|ONNX|Compile Results|Total DRAM Size|Inference Speed (Standard)|Inference Speed (Boost)|
 |:-----:|:---:|:---:|:---:|:---:|:---:|
 |320_320_eyenix_model|-|-|-|-|-|
 |512_512_eyenix_model|-|-|-|-|-|
@@ -50,25 +51,26 @@ The EN675 Series SoC Model Zoo privides the trained models for AI Object Detecti
 #### :arrow_forward: Object Detection
 :+1: Train Dataset : PASCAL VOC 2007 (train, val), PASCAL VOC 2012 (train, val)  
 :+1: Test Dataset : PASCAL VOC 2007 (test)
-|Model|mAP|
-|:-----:|:---:|
-|320_320_eyenix_model_v1|0.752|
-|512_512_eyenix_model_v1|0.782|
-|640_640_eyenix_model_v1|-|
+|Model|mAP at IOU = .50 (GPU)|mAP at IOU = .50 (NPU)|
+|:-----:|:---:|:---:|
+|320_320_eyenix_model_v1|0.752|-|
+|512_512_eyenix_model_v1|0.782|-|
+|640_640_eyenix_model_v1|-|-|
 
 &#160;
 
-:+1: Train Dataset : COCO 2017 (train, val) (TBD)  
-:+1: Test Dataset : COCO 2017 (test)
-|Model|mAP|
-|:-----:|:---:|
-|320_320_eyenix_model_v1|-|
-|512_512_eyenix_model_v1|-|
-|640_640_eyenix_model_v1|-|
+### To be updated later
+:+1: Train Dataset : COCO 2017 (train)  
+:+1: Test Dataset : COCO 2017 (val)
+|Model|mAP at IOU = .50 (GPU)|mAP at IOU = .50:.05:.95 (GPU)|mAP at IOU = .50 (NPU)|mAP at IOU = .50:.05:.95 (NPU)|
+|:-----:|:---:|:---:|:---:|:---:|
+|320_320_eyenix_model_v1|-|-|-|-|
+|512_512_eyenix_model_v1|-|-|-|-|
+|640_640_eyenix_model_v1|-|-|-|-|
 
 &#160;
 
-#### :arrow_forward: Classification (TBD)
+#### :arrow_forward: Classification (TBD)  
 :+1: Train Dataset : ImageNet  
 :+1: Test Dataset : ImageNet
 |Model|TOP-1 Accuracy|
