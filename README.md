@@ -17,8 +17,9 @@ The EN675 Series SoC Model Zoo privides the trained models for AI Object Detecti
 |Model|ONNX|Compile Results|Total DRAM Size|Inference Speed (Standard)|Inference Speed (Boost)|
 |:-----:|:---:|:---:|:---:|:---:|:---:|
 |320_320_eyenix_model_v1|-|-|-|-|-|
-|512_512_eyenix_model_v1|-|-|-|-|-|
+|512_512_eyenix_model_v1|[512_512_eyenix_model_v1.onnx](https://github.com/Eyenix/en675_model_zoo/files/9466030/512_512_eyenix_model_v1.zip)|[od6class_512.bin](https://github.com/Eyenix/en675_model_zoo/files/9466035/od6class_512.zip)|18MB|37ms|20ms|
 |640_640_eyenix_model_v1|-|-|-|-|-|
+
 
 &#160;
 
