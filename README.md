@@ -84,7 +84,13 @@ The EN675 Series SoC Model Zoo privides the trained models for AI Object Detecti
 &#160;
 
 ### :fire: How to apply Model 
+#### This method is applied from EN675_SDK_V1.10.00R environment.  
+1. Set UYVH and UYVV values in BSP/conf/videocore_hw.par to match the resolution of the model user want to use.
+2. Download the bin file of the desired model and apply it.
+3. User needs to match the path definition with the bin file in the BSP/spf/npu/testapp/src/npu_conf.h.
+
 
 &#160;
+
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FEyenix%2Fen675_model_zoo&count_bg=%2379C83D&title_bg=%23555555&icon=pytorch.svg&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
