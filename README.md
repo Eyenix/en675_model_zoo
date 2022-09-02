@@ -81,6 +81,9 @@ The EN675 Series SoC Model Zoo privides the trained models for AI Object Detecti
 |640_640_eyenix_model|-|
 ***
 
+### promotion(DEMO)
+![Parking_lot solution](https://user-images.githubusercontent.com/66294848/188069884-3441a15f-2a91-477a-b8d1-6337c931c25d.gif)
+
 &#160;
 
 
