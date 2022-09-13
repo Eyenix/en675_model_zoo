@@ -65,7 +65,7 @@ The EN675 Series SoC Model Zoo privides the trained models for AI Object Detecti
 |Model|mAP at IOU = .50 (GPU)|mAP at IOU = .50:.05:.95 (GPU)|mAP at IOU = .50 (NPU)|mAP at IOU = .50:.05:.95 (NPU)|
 |:-----:|:---:|:---:|:---:|:---:|
 |320_320_eyenix_model_v1|34.0|28.6|-|-|
-|512_512_eyenix_model_v1|-|-|-|-|
+|512_512_eyenix_model_v1|35.3|31.1|-|-|
 |640_640_eyenix_model_v1|-|-|-|-|
 
 &#160;
