@@ -51,22 +51,21 @@ The EN675 Series SoC Model Zoo privides the trained models for AI Object Detecti
 #### :arrow_forward: Object Detection
 :+1: Train Dataset : PASCAL VOC 2007 (train, val), PASCAL VOC 2012 (train, val)  
 :+1: Test Dataset : PASCAL VOC 2007 (test)
-|Model|mAP at IOU = .50 (GPU)|mAP at IOU = .50 (NPU)|
-|:-----:|:---:|:---:|
-|320_320_eyenix_model_v1|75.2|-|
-|512_512_eyenix_model_v1|78.2|-|
-|640_640_eyenix_model_v1|79.4|-|
+|Model|mAP at IOU = .50 (GPU)|mAP at IOU = .50 (NPU)| test file |
+|:-----:|:---:|:---:|:---:|
+|320_320_eyenix_model_v1|75.2|-|-|
+|512_512_eyenix_model_v1|78.2|-|-|
+|640_640_eyenix_model_v1|79.4|-|-|
 
 &#160;
 
-### To be updated later
 :+1: Train Dataset : COCO 2017 (train)  
 :+1: Test Dataset : COCO 2017 (val)
-|Model|mAP at IOU = .50 (GPU)|mAP at IOU = .50:.05:.95 (GPU)|mAP at IOU = .50 (NPU)|mAP at IOU = .50:.05:.95 (NPU)|
-|:-----:|:---:|:---:|:---:|:---:|
-|320_320_eyenix_model_v1|34.0|28.6|-|-|
-|512_512_eyenix_model_v1|35.3|31.1|-|-|
-|640_640_eyenix_model_v1|-|-|-|-|
+|Model|mAP at IOU = .50 (GPU)|mAP at IOU = .50:.05:.95 (GPU)|mAP at IOU = .50 (NPU)|mAP at IOU = .50:.05:.95 (NPU)| test file|
+|:-----:|:---:|:---:|:---:|:---:|:---:|
+|320_320_eyenix_model_v1|34.0||-|-|-|
+|512_512_eyenix_model_v1|35.3||-|-|-|
+|640_640_eyenix_model_v1|-|-|-|-|-|
 
 &#160;
 
