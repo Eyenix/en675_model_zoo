@@ -34,16 +34,6 @@ The EN675 Series SoC Model Zoo privides the trained models for AI Object Detecti
 |512_512_eyenix_model_v1|-|-|-|-|-|
 |640_640_eyenix_model_v1|-|-|-|-|-|
 
-&#160;
-
-#### :arrow_forward: Classification (TBD)
-**class** : -
-|Model|ONNX|Compile Results|Total DRAM Size|Inference Speed (Standard)|Inference Speed (Boost)|
-|:-----:|:---:|:---:|:---:|:---:|:---:|
-|320_320_eyenix_model|-|-|-|-|-|
-|512_512_eyenix_model|-|-|-|-|-|
-|640_640_eyenix_model|-|-|-|-|-|
-***
 
 &#160;
 
@@ -59,25 +49,7 @@ The EN675 Series SoC Model Zoo privides the trained models for AI Object Detecti
 
 &#160;
 
-:+1: Train Dataset : COCO 2017 (train)  
-:+1: Test Dataset : COCO 2017 (val)
-|Model|mAP at IOU = .50 (GPU)|mAP at IOU = .50:.05:.95 (GPU)|mAP at IOU = .50 (NPU)|mAP at IOU = .50:.05:.95 (NPU)| test file|
-|:-----:|:---:|:---:|:---:|:---:|:---:|
-|320_320_eyenix_model_v1|34.0||-|-|-|
-|512_512_eyenix_model_v1|35.3||-|-|-|
-|640_640_eyenix_model_v1|-|-|-|-|-|
 
-&#160;
-
-#### :arrow_forward: Classification (TBD)  
-:+1: Train Dataset : ImageNet  
-:+1: Test Dataset : ImageNet
-|Model|TOP-1 Accuracy|
-|:-----:|:---:|
-|320_320_eyenix_model|-|
-|512_512_eyenix_model|-|
-|640_640_eyenix_model|-|
-***
 
 ### :clapper:promotion (DEMO)
 #### :arrow_forward: Parking lot solution
