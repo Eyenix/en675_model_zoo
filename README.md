@@ -30,9 +30,10 @@ The EN675 Series SoC Model Zoo privides the trained models for AI Object Detecti
 
 |Model|ONNX|Compile Results|Total DRAM Size|Inference Speed (Standard)|Inference Speed (Boost)|
 |:-----:|:---:|:---:|:---:|:---:|:---:|
-|320_320_eyenix_model_face_v1|-|-|-|22ms|11ms|
-|448_448_eyenix_model_face_v1|-|-|-|50ms|20ms|
-|512_512_eyenix_model_face_v1|-|-|-|68ms|28ms|  
+|320_320_eyenix_model_face_v1|[320_320_eyenix_model_face_v1.onnx](https://github.com/Eyenix/en675_model_zoo/files/9925051/320_320_eyenix_model_face_v1.zip)|
+[face_320.bin](https://github.com/Eyenix/en675_model_zoo/files/9925058/face_320.zip)|12MB|22ms|11ms|
+|448_448_eyenix_model_face_v1|[448_448_eyenix_model_face_v1.onnx](https://github.com/Eyenix/en675_model_zoo/files/9925055/448_448_eyenix_model_face_v1.zip)|[face_448.bin](https://github.com/Eyenix/en675_model_zoo/files/9925059/face_448.zip)|23MB|50ms|20ms|
+|512_512_eyenix_model_face_v1|[512_512_eyenix_model_face_v1.onnx](https://github.com/Eyenix/en675_model_zoo/files/9925056/512_512_eyenix_model_face_v1.zip)|[face_512.bin](https://github.com/Eyenix/en675_model_zoo/files/9925060/face_512.zip)|31MB|68ms|28ms|  
 
 **caution** : For the eyenix_face model, the confidence score max is 64 instead of 256. User needs to change the value of the ClassConfTH array in npu_conf.c
 
