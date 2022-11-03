@@ -23,7 +23,6 @@ The EN675 Series SoC Model Zoo privides the trained models for AI Object Detecti
 
 &#160;
 
-### To be updated later
 **class** : Face  
 <figure>
     <img src="./img/face_image.PNG" title="face">    
@@ -31,9 +30,11 @@ The EN675 Series SoC Model Zoo privides the trained models for AI Object Detecti
 
 |Model|ONNX|Compile Results|Total DRAM Size|Inference Speed (Standard)|Inference Speed (Boost)|
 |:-----:|:---:|:---:|:---:|:---:|:---:|
-|320_320_eyenix_model_v1|-|-|-|-|-|
-|512_512_eyenix_model_v1|-|-|-|-|-|
-|640_640_eyenix_model_v1|-|-|-|-|-|
+|320_320_eyenix_model_face_v1|-|-|-|22ms|11ms|
+|448_448_eyenix_model_face_v1|-|-|-|50ms|20ms|
+|512_512_eyenix_model_face_v1|-|-|-|68ms|28ms|  
+
+**caution** : For the eyenix_face model, the confidence score max is 64 instead of 256. User needs to change the value of the ClassConfTH array in npu_conf.c
 
 
 &#160;
