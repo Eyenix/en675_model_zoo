@@ -17,12 +17,12 @@ The EN675 Series SoC Model Zoo privides the trained models for AI Object Detecti
     <img src="./img/6classes_image.PNG" title="6class">    
 </figure>
 
-|Model|ONNX|Compile Results|Total DRAM Size|Inference Speed (Standard)|Inference Speed (Boost)|
-|:-----:|:---:|:---:|:---:|:---:|:---:|
-|320_320_eyenix_model_v1|[320_320_eyenix_model_v1.onnx](https://github.com/Eyenix/en675_model_zoo/files/9623478/320_320_eyenix_model_v1.zip)|[od6class_320.bin](https://github.com/Eyenix/en675_model_zoo/files/9623476/od6class_320.zip)|11MB|26ms|13ms|
-|512_512_eyenix_model_v1|[512_512_eyenix_model_v1.onnx](https://github.com/Eyenix/en675_model_zoo/files/9466030/512_512_eyenix_model_v1.zip)|[od6class_512.bin](https://github.com/Eyenix/en675_model_zoo/files/9466035/od6class_512.zip)|18MB|37ms|20ms|
-|640_640_eyenix_model_v1|[640_640_eyenix_model_v1.onnx](https://github.com/Eyenix/en675_model_zoo/files/9485742/640_640_eyenix_model_v1.zip)|[od6class_640.bin](https://github.com/Eyenix/en675_model_zoo/files/9485743/od6class_640.zip)|25MB|54ms|29ms|
-|672_384_eyenix_model_v2|[672_384_eyenix_model_v2.onnx](https://github.com/Eyenix/en675_model_zoo/files/12256208/672_384_eyenix_model_v2.zip)|[od6class_672_384.bin](https://github.com/Eyenix/en675_model_zoo/files/12459169/od6class_672_384.zip)|22MB|63ms|28ms|
+|Model|ONNX|Compile Results|Cfg|Total DRAM Size|Inference Speed (Standard)|Inference Speed (Boost)|
+|:-----:|:---:|:---:|:---:|:---:|:---:|:---:|
+|320_320_eyenix_model_v1|[320_320_eyenix_model_v1.onnx](https://github.com/Eyenix/en675_model_zoo/files/9623478/320_320_eyenix_model_v1.zip)|[od6class_320.bin](https://github.com/Eyenix/en675_model_zoo/files/9623476/od6class_320.zip)|[od6class_320.cfg](https://github.com/Eyenix/en675_model_zoo/files/12812959/od6class_320.zip)|11MB|26ms|13ms|
+|512_512_eyenix_model_v1|[512_512_eyenix_model_v1.onnx](https://github.com/Eyenix/en675_model_zoo/files/9466030/512_512_eyenix_model_v1.zip)|[od6class_512.bin](https://github.com/Eyenix/en675_model_zoo/files/9466035/od6class_512.zip)|[od6class_512.cfg](https://github.com/Eyenix/en675_model_zoo/files/12812963/od6class_512.zip)|18MB|37ms|20ms|
+|640_640_eyenix_model_v1|[640_640_eyenix_model_v1.onnx](https://github.com/Eyenix/en675_model_zoo/files/9485742/640_640_eyenix_model_v1.zip)|[od6class_640.bin](https://github.com/Eyenix/en675_model_zoo/files/9485743/od6class_640.zip)|[od6class_640.cfg](https://github.com/Eyenix/en675_model_zoo/files/12812969/od6class_640.zip)|25MB|54ms|29ms|
+|672_384_eyenix_model_v2|[672_384_eyenix_model_v2.onnx](https://github.com/Eyenix/en675_model_zoo/files/12256208/672_384_eyenix_model_v2.zip)|[od6class_672_384.bin](https://github.com/Eyenix/en675_model_zoo/files/12459169/od6class_672_384.zip)|[od6class_672_384.cfg](https://github.com/Eyenix/en675_model_zoo/files/12812971/od6class_672_384.zip)|22MB|63ms|28ms|
 
 
 &#160;
@@ -32,12 +32,12 @@ The EN675 Series SoC Model Zoo privides the trained models for AI Object Detecti
     <img src="./img/face_image.PNG" title="face">    
 </figure>
 
-|Model|ONNX|Compile Results|Total DRAM Size|Inference Speed (Standard)|Inference Speed (Boost)|
-|:-----:|:---:|:---:|:---:|:---:|:---:|
-|320_320_eyenix_model_face_v1|[320_320_eyenix_model_face_v1.onnx](https://github.com/Eyenix/en675_model_zoo/files/9925051/320_320_eyenix_model_face_v1.zip)|[face_320.bin](https://github.com/Eyenix/en675_model_zoo/files/9925058/face_320.zip)|12MB|22ms|11ms|
-|448_448_eyenix_model_face_v1|[448_448_eyenix_model_face_v1.onnx](https://github.com/Eyenix/en675_model_zoo/files/9925055/448_448_eyenix_model_face_v1.zip)|[face_448.bin](https://github.com/Eyenix/en675_model_zoo/files/9925059/face_448.zip)|23MB|50ms|20ms|
-|512_512_eyenix_model_face_v1|[512_512_eyenix_model_face_v1.onnx](https://github.com/Eyenix/en675_model_zoo/files/9925056/512_512_eyenix_model_face_v1.zip)|[face_512.bin](https://github.com/Eyenix/en675_model_zoo/files/9925060/face_512.zip)|31MB|68ms|28ms|  
-|512_288_eyenix_model_face_v2|[512_288_eyenix_model_face_v2.onnx](https://github.com/Eyenix/en675_model_zoo/files/12256218/512_288_eyenix_model_face_v2.zip)|[face_512_288.bin](https://github.com/Eyenix/en675_model_zoo/files/12459171/face_512_288.zip)|14MB|38ms|17ms|
+|Model|ONNX|Compile Results|Cfg|Total DRAM Size|Inference Speed (Standard)|Inference Speed (Boost)|
+|:-----:|:---:|:---:|:---:|:---:|:---:|:---:|
+|320_320_eyenix_model_face_v1|[320_320_eyenix_model_face_v1.onnx](https://github.com/Eyenix/en675_model_zoo/files/9925051/320_320_eyenix_model_face_v1.zip)|[face_320.bin](https://github.com/Eyenix/en675_model_zoo/files/9925058/face_320.zip)|[face_320.cfg](https://github.com/Eyenix/en675_model_zoo/files/12813033/face_320.zip)|12MB|22ms|11ms|
+|448_448_eyenix_model_face_v1|[448_448_eyenix_model_face_v1.onnx](https://github.com/Eyenix/en675_model_zoo/files/9925055/448_448_eyenix_model_face_v1.zip)|[face_448.bin](https://github.com/Eyenix/en675_model_zoo/files/9925059/face_448.zip)|[face_448.cfg](https://github.com/Eyenix/en675_model_zoo/files/12813035/face_448.zip)|23MB|50ms|20ms|
+|512_512_eyenix_model_face_v1|[512_512_eyenix_model_face_v1.onnx](https://github.com/Eyenix/en675_model_zoo/files/9925056/512_512_eyenix_model_face_v1.zip)|[face_512.bin](https://github.com/Eyenix/en675_model_zoo/files/9925060/face_512.zip)|[face_512.cfg](https://github.com/Eyenix/en675_model_zoo/files/12813036/face_512.zip)|31MB|68ms|28ms|  
+|512_288_eyenix_model_face_v2|[512_288_eyenix_model_face_v2.onnx](https://github.com/Eyenix/en675_model_zoo/files/12256218/512_288_eyenix_model_face_v2.zip)|[face_512_288.bin](https://github.com/Eyenix/en675_model_zoo/files/12459171/face_512_288.zip)|[face_512_288.cfg](https://github.com/Eyenix/en675_model_zoo/files/12813038/face_512_288.zip)|14MB|38ms|17ms|
 
 
 **caution** : For the eyenix_face model_v1, the confidence score max is 64 instead of 256. User needs to change the value of the ClassConfTH array in npu_conf.c
